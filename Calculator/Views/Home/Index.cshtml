@@ -1,0 +1,33 @@
+﻿<html>
+
+<head>
+   <title>Simple Javascript Calculator</title>
+     <link rel="stylesheet" href="style.css">
+    <script src="~/Scripts/apps.js/index.js"></script>
+</head>
+
+<body>
+    <!--Numbers Entry Fields -->
+    <h3>Enter Numbers </h3>
+    <input type="text" id="number1">
+    <br />
+    <input type="text" id="number2">
+
+
+    <br />
+    <!--Calculation Buttons-->
+    <!--when this btn is click function executes-->
+    <input type="button" id="addBtn" value="+" onclick="addNum()"><!--Add-->
+    <input type="button" id="subBtn" value="-" onclick="subNum()"><!--sub-->
+    <br />
+    <input type="button" id="multNum" value="*" onclick="multNum()"><!--Mult-->
+    <input type="button" id="divBtn" value="/" onclick="divdNum()"><!--div-->
+    <!--Results / Clear Results -->
+
+    <h3>Results </h3>
+    <input type="button" id="clrrBtn" onclick="clrNum()" value="Clear"><br>
+    <input type="text" id="results">
+</body>
+</html>
+
+
